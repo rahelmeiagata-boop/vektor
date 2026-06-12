@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Easy Quiz
+    </title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body onload="loadEasyQuiz()">
+
+    <header>
+
+        <nav>
+
+            <h1>
+                Easy Quiz
+            </h1>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+
+                ☰
+
+            </div>
+
+            <ul id="navMenu">
+
+                <li>
+                    <a href="../index.html" onclick="window.onbeforeunload=null;">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="banksoal.html" onclick="window.onbeforeunload=null;">
+                        Bank Soal
+                    </a>
+                </li>
+
+                <li>
+                    <a href="progress.html" onclick="window.onbeforeunload=null;">
+                        Progress
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="box">
+
+        <h2>
+            🟢 Easy Quiz
+        </h2>
+
+        <p>
+
+            Quiz ini berisi
+            materi dasar vektor.
+
+        </p>
+
+        <p>
+
+            Selesaikan quiz
+            untuk mendapatkan
+            10 XP 🚀
+
+        </p>
+
+        <div class="progress-bar">
+
+            <div class="progress-fill" id="quizProgress">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <p id="quizProgressText">
+
+            1 / 7
+
+        </p>
+
+    </div>
+
+    <div id="quizContainer">
+
+    </div>
+
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

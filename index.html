@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vector Explorer
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="startWebsite()">
+
+    <div id="loginPopup" class="login-popup">
+
+        <div class="login-box">
+
+            <h2>
+                Selamat Datang 👋
+            </h2>
+
+            <p>
+                Masukkan nama kamu dulu sebelum mulai belajar.
+            </p>
+
+            <input type="text" id="usernameInput" placeholder="Masukkan nama kamu">
+
+            <button onclick="saveUsername()">
+                Mulai Belajar
+            </button>
+
+        </div>
+
+    </div>
+
+    <header>
+
+        <nav>
+
+            <h1>
+                Vector Explorer
+            </h1>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <ul id="navMenu">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="pages/vektor.html">Vektor</a>
+                </li>
+
+                <li>
+                    <a href="pages/dotproduct.html">Dot Product</a>
+                </li>
+
+                <li>
+                    <a href="pages/r3.html">R3</a>
+                </li>
+
+                <li>
+                    <a href="pages/banksoal.html">Bank Soal</a>
+                </li>
+
+                <li>
+                    <a href="pages/progress.html" onclick="window.onbeforeunload=null;">
+                        Progress
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="dashboard">
+
+        <div class="welcome-card">
+
+            <div>
+
+                <h2 id="welcomeText">
+                    Halo 👋
+                </h2>
+
+                <p>
+                    Semangat belajar hari ini.
+                    Selesaikan quiz dan kumpulkan XP untuk meningkatkan rank kamu 🚀
+                </p>
+
+                <div class="streak-box">
+
+                    🔥
+                    <span id="streakText">
+                        0
+                    </span>
+
+                    Day Streak
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="stats-section">
+
+        <div class="stats-card">
+
+            <h2 id="dashboardXP">
+                0
+            </h2>
+
+            <p>
+                Total XP
+            </p>
+
+        </div>
+
+        <div class="stats-card">
+
+            <h2 id="dashboardQuiz">
+                0
+            </h2>
+
+            <p>
+                Quiz Selesai
+            </p>
+
+        </div>
+
+        <div class="stats-card">
+
+            <h2 id="dashboardRank">
+                Beginner
+            </h2>
+
+            <p>
+                Rank
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="hero">
+
+        <h2>
+            Belajar Vektor Jadi Lebih Mudah
+        </h2>
+
+        <p>
+            Pelajari konsep vektor, hasil kali titik, dan ruang R3 dengan visual interaktif, bank soal, dan sistem
+            progress modern.
+        </p>
+
+    </section>
+
+    <section class="materi">
+
+        <h2>
+            Materi Pembelajaran
+        </h2>
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <h3>
+                    Vektor
+                </h3>
+
+                <p>
+                    Materi dasar vektor dan operasinya.
+                </p>
+
+                <a href="pages/vektor.html">
+                    Pelajari
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Dot Product
+                </h3>
+
+                <p>
+                    Hasil kali titik dan sudut antar vektor.
+                </p>
+
+                <a href="pages/dotproduct.html">
+                    Pelajari
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    R3
+                </h3>
+
+                <p>
+                    Ruang tiga dimensi dan visualisasinya.
+                </p>
+
+                <a href="pages/r3.html">
+                    Pelajari
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Bank Soal
+                </h3>
+
+                <p>
+                    Quiz easy, medium, dan hard.
+                </p>
+
+                <a href="pages/banksoal.html">
+                    Kerjakan
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Progress
+                </h3>
+
+                <p>
+                    Lihat XP dan rank belajar.
+                </p>
+
+                <a href="pages/progress.html">
+                    Lihat
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="start-button">
+            <a href="pages/vektor.html" class="btn">
+                Mulai Belajar
+            </a>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

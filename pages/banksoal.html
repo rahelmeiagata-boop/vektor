@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Bank Soal
+    </title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body onload="loadPlayer()">
+
+    <header>
+
+        <nav>
+
+            <h1>
+                Vector Explorer
+            </h1>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+
+                ☰
+
+            </div>
+
+            <ul id="navMenu">
+
+                <li>
+                    <a href="../index.html" onclick="window.onbeforeunload=null;">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="vektor.html" onclick="window.onbeforeunload=null;">
+                        Materi
+                    </a>
+                </li>
+
+                <li>
+                    <a href="progress.html" onclick="window.onbeforeunload=null;">
+                        Progress
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="box">
+
+        <h2>
+            Progress Quiz
+        </h2>
+
+        <p>
+
+            Kerjakan quiz
+            untuk meningkatkan XP
+            dan rank kamu 🚀
+
+        </p>
+
+        <div class="progress-bar">
+
+            <div class="progress-fill" id="progressFill">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <p id="progressText">
+
+            0 Quiz Selesai
+
+        </p>
+
+    </div>
+
+    <div class="quiz-container">
+
+        <div class="card">
+
+            <h3>
+                🟢 Easy Quiz
+            </h3>
+
+            <p>
+
+                7 soal dasar vektor
+                untuk pemula.
+
+            </p>
+
+            <ul>
+
+                <li>
+                    Reward 10 XP
+                </li>
+
+                <li>
+                    Konsep dasar vektor
+                </li>
+
+                <li>
+                    Operasi vektor
+                </li>
+
+            </ul>
+
+            <br>
+
+            <a href="soaleasy.html" class="btn">
+
+                Kerjakan
+
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+                🔵 Medium Quiz
+            </h3>
+
+            <p>
+
+                7 soal dot product
+                dan proyeksi vektor.
+
+            </p>
+
+            <ul>
+
+                <li>
+                    Reward 20 XP
+                </li>
+
+                <li>
+                    Dot product
+                </li>
+
+                <li>
+                    Sudut antar vektor
+                </li>
+
+            </ul>
+
+            <br>
+
+            <a href="soalmedium.html" class="btn">
+
+                Kerjakan
+
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+                🟠 Hard Quiz
+            </h3>
+
+            <p>
+
+                6 soal ruang R3
+                dan visualisasi 3D.
+
+            </p>
+
+            <ul>
+
+                <li>
+                    Reward 35 XP
+                </li>
+
+                <li>
+                    Ruang tiga dimensi
+                </li>
+
+                <li>
+                    Persamaan bidang
+                </li>
+
+            </ul>
+
+            <br>
+
+            <a href="soalhard.html" class="btn">
+
+                Kerjakan
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="section-card">
+
+        <h2>
+
+            Tips Belajar
+
+        </h2>
+
+        <ul>
+
+            <li>
+                Pelajari materi dulu
+                sebelum quiz
+            </li>
+
+            <li>
+                Gunakan GeoGebra
+                untuk visualisasi
+            </li>
+
+            <li>
+                Kerjakan quiz rutin
+                agar streak bertambah
+            </li>
+
+            <li>
+                Kumpulkan XP
+                untuk meningkatkan rank
+            </li>
+
+        </ul>
+
+    </div>
+
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

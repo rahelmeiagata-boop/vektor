@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Medium Quiz
+    </title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body onload="loadMediumQuiz()">
+
+    <header>
+
+        <nav>
+
+            <h1>
+                Medium Quiz
+            </h1>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+
+                ☰
+
+            </div>
+
+            <ul id="navMenu">
+
+                <li>
+                    <a href="../index.html" onclick="window.onbeforeunload=null;">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="banksoal.html" onclick="window.onbeforeunload=null;">
+                        Bank Soal
+                    </a>
+                </li>
+
+                <li>
+                    <a href="progress.html" onclick="window.onbeforeunload=null;">
+                        Progress
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="box">
+
+        <h2>
+            🔵 Medium Quiz
+        </h2>
+
+        <p>
+
+            Quiz ini berisi
+            materi dot product,
+            proyeksi,
+            dan sudut antar vektor.
+
+        </p>
+
+        <p>
+
+            Selesaikan quiz
+            untuk mendapatkan
+            20 XP 🚀
+
+        </p>
+
+        <div class="progress-bar">
+
+            <div class="progress-fill" id="quizProgress">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <p id="quizProgressText">
+
+            1 / 7
+
+        </p>
+
+    </div>
+
+    <div id="quizContainer">
+
+    </div>
+
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
